@@ -16,3 +16,7 @@ div {
 .subtitle {
   font-weight: 700; /* this is bold */
 }
+
+#MainHeader {
+  text-align: center; 
+}
