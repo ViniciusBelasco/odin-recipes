@@ -20,3 +20,8 @@ div {
 #MainHeader {
   text-align: center; 
 }
+
+.HomeRecipes {
+  display: inline-block;
+  margin: 0 10px;
+}
