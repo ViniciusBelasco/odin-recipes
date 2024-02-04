@@ -4,7 +4,7 @@ html {
 }
 
 img {
-  height: auto;
+  height: 540px;
   width: auto;
   /* example of how to center images*/
   display: block;
