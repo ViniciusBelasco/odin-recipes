@@ -12,6 +12,11 @@ img {
   margin-right: auto;
 }
 
+.container {
+  border: 10px solid red;
+
+}
+
 div {
   border: 2px solid black;
   background-color: lightblue;
