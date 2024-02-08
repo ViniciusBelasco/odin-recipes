@@ -34,6 +34,28 @@ h1 {
   margin: 0 10px;
 }
 
+div {
+  border: 2px solid black;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ol {
+  list-style: upper-roman;
+}
+
+/* strogonoff style */
+
+.stroganoff {
+  display: flex;
+  align-items: center;
+}
+
 .stroganoff_background {
   background-color: rgb(183, 119, 16);
   display: flex;
@@ -56,17 +78,28 @@ h1 {
   flex-direction: column;
 }
 
-div {
-  border: 2px solid black;
-  background-color: lightblue;
+/* Yakisoba noodles */
+
+.yakisoba.box {
+  background-color: hsl(45, 87%, 34%);
+}
+
+.yakisoba.ingredients,
+.yakisoba.directions {
+  color: white;
+  border: 2px solid darkorange;
+  background-color: rgb(20, 79, 2);
+}
+
+.yakisoba.ingredients,
+.yakisoba.directions,
+.yakisoba.background {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
-ul {
-  list-style-type: none;
-}
-
-ol {
-  list-style: upper-roman;
+.yakisoba.background {
+  align-items: center;
+  color: white;
+  background-color: hsl(0, 0%, 0%);
 }
