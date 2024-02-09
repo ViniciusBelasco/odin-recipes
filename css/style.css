@@ -103,3 +103,37 @@ ol {
   color: white;
   background-color: hsl(0, 0%, 0%);
 }
+
+/* Ratatoullie */
+
+.ratatouille.box {
+  background-color: red;
+}
+
+.ratatouille.ingredients {
+  padding-right: 20px;
+}
+
+.ratatouille.ingredients,
+.ratatouille.directions {
+  color: #241511;
+  border: 2px solid lightgreen;
+  background-color: #E9F6E5;
+}
+
+.ratatouille.ingredients,
+.ratatouille.directions,
+.ratatouille.background {
+  display: flex;
+  flex-direction: column;
+}
+
+.ratatouille.background {
+  align-items: center;
+  color: white;
+  background-color: darkred;
+}
+
+.imageplate {
+  border: 2px solid white; 
+}
