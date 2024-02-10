@@ -26,6 +26,7 @@ h3 {
 #MainHeader,
 h1 {
   text-align: center; 
+  text-transform: uppercase;
 }
 
 .HomeRecipes {
